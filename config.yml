@@ -1,0 +1,11 @@
+server:
+   applicationConnectors:
+   - type: http
+     port: 8001
+   adminConnectors:
+   - type: http
+     port: 8002
+
+url: ACTIVEMQ_PORT_61616_TCP
+username: admin
+password: admin
