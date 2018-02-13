@@ -40,7 +40,6 @@ public class VinPublisher {
         MessageProducer messageProducer = session.createProducer(topic);
 
             ObjectMessage obj = session.createObjectMessage(vin);
-            //TextMessage textMessage = session.createTextMessage(vin);
             messageProducer.send(obj);
 
 
